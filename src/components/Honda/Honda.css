@@ -1,0 +1,90 @@
+.honda{
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../assets/background2.png');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.honda-text{
+    text-align: left;
+    max-width: 800px;
+}
+.honda-text h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 10px -80px 20px;
+}
+.honda-text p{
+    max-width: 700px;
+    font-size: 18px;
+    margin: 10px -80px 20px;
+    line-height: 1.4;
+}
+.btn1{
+    background: #fff;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px -80px 20px;
+}
+.btn1 img{
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
+/*----media query---*/
+
+@media(max-width:850px)
+{
+    .honda-text h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:1100px)
+{
+    .honda-text h1{
+        font-size: 40px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .honda-text p{
+        font-size: 16px;
+        margin: 15px auto 30px;
+    }
+}
+@media(max-width:650px)
+{
+    .honda-text h1{
+        font-size: 25px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .honda-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
+@media(max-width:950px){
+    .btn1{
+        margin: 15px auto 30px;
+    }
+
+    /* .btn1 img{
+        width: 25px;
+        margin-left: 10px;
+        margin-right: 1px;
+    } */
+    
+}
